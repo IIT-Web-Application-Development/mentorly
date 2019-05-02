@@ -108,5 +108,5 @@ app.get('/logout', function(req, res){
 mongoose.connect('mongodb://localhost/mentorstudent');
 var db = mongoose.connection;
 
-app.listen(3000);
-console.log("App started running on port 3000")
+app.listen(8080);
+console.log("App started running on port 8080")
